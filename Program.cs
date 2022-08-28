@@ -8,8 +8,9 @@ namespace task3
         {
             int beginValue = 5;
             int endValue = 96;
+            int step = 7;
 
-            for (int value = beginValue; value <= endValue; value += 7)
+            for (int value = beginValue; value <= endValue; value += step)
             {
                 Console.WriteLine(value);
             }
